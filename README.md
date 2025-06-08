@@ -1,15 +1,19 @@
 # Bartoe.github.io
-Portfolio
+
 💼 Portfolio – Beginner Roblox Scripter
-👋 About Me
+
+👋 About Me:
+
  Hi! I’m a beginner Roblox scripter, I really want to grow and build experience.
 I focus on small scripting tasks such as tools, clickable parts, and basic systems.
 I charge around $5 per task, depending on the complexity.
+
 🪙 Project 1: Coin Collection System
 Description:
 Rotates the coin continuously.
 When touched by a player, adds to their coins and speed stats.
 Temporarily hides the coin, then respawns it at a random position.
+
 Script (Server Script inside the Coin Part):
 local coin = script.Parent
 local canTouch = true
@@ -41,11 +45,13 @@ coin.Touched:Connect(function(otherPart)
                 end
         end
 end)
+
 🌀 Project 2: Teleport Pad
 Description:
 A part that teleports a player to a target location when touched.
 Includes a basic cooldown system.
 Script (inside the teleport part):
+
 local pad = script.Parent
 local canTeleport = true
 local destination = workspace:WaitForChild("TeleportDestination") -- Add a part named 'TeleportDestination'
@@ -58,6 +64,7 @@ pad.Touched:Connect(function(hit)
                 canTeleport = true
         end
 end)
+
 🔧 Project 3: Interactive Tool System
 Description:
 A tool that scales up when activated.
@@ -65,6 +72,7 @@ Changes color every second while active.
 Increases the "clicks" stat in leaderstats.
 Resets on deactivation.
 Script (Local Script inside Tool):
+
 local tool = script.Parent
 local handle = tool:FindFirstChild("Handle")
 tool.Equipped:Connect(function()
@@ -91,12 +99,14 @@ tool.Equipped:Connect(function()
                 end
         end)
 end)
+
 💬 Contact  
 Discord: Bartoe#3957  
 💵 Price: Small tasks start at $5  
 💸 I also accept Robux (minimum 1500 Robux)  
 🌍 Languages: English and Dutch  
 ⏰ Availability: Mostly evenings/weekends (CET)
+
 ✅ Let’s Work Together
 I’m still learning, but I write clean scripts, respond quickly, and always deliver what I promise.
 If you need a small script done affordably and reliably, send me a message!
